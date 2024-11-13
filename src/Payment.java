@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Payment {
+public abstract class Payment {
+    public abstract void processPayment(double amount);
 }

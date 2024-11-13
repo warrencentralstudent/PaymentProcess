@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class BankTransferPayment {
+public class BankTransferPayment extends Payment {
+
+
+    @Override
+    public void processPayment(double amount) {
+        System.out.println("Bank transfer payment of " + amount + " processed");
+    }
 }
